@@ -65,13 +65,17 @@ main p {
 
 .arrow-down {
   display: inline-block;
-  padding: 3.2rem 1.6rem;
+  padding: 2.8rem 1.6rem;
   margin-bottom: 10rem;
   border: 0.4rem solid #b52184;
   border-radius: 5rem;
   color: #b52184;
 
   font-size: 4rem;
+}
+
+.arrow-down i {
+  animation: arrow-down 2s infinite;
 }
 
 .features {
@@ -170,4 +174,16 @@ footer {
 
   color: #fff;
   text-align: center;
+}
+
+@keyframes arrow-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
