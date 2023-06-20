@@ -35,11 +35,11 @@ Check out the live demo of the project <a href="https://emidiovaleretto.github.i
 
 ## Mobile first
 
-![Mobile first](https://i.ibb.co/G39XWV3/emidiovaleretto-github-io-rocketseat-explore-without-limits.png)
+![Mobile first](https://i.imgur.com/gmyEAVS.png)
 
 ## Installation
 
-To set up the Rocketseat Challenge 05 project locally, follow these steps:
+To set up the Rocketseat Explorer without limits project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/emidiovaleretto/rocketseat-explore-without-limits.git`
 2. Navigate to the project directory: `cd rocketseat-explore-without-limits`
@@ -60,7 +60,7 @@ That's it! You're ready to explore the project.
 
 ## Contributing
 
-Contributions to the Rocketseat Challenge 05 project are welcome. To contribute, please follow these steps:
+Contributions to the Rocketseat Explorer without limits project are welcome. To contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/your-feature`.
