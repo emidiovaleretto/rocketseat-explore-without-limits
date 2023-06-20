@@ -34,6 +34,10 @@ p {
   font-weight: 600;
 }
 
+.linear-gradient-bg {
+  background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
+}
+
 .container {
   max-width: 43rem;
   margin: 0 auto;
@@ -71,7 +75,6 @@ main p {
 }
 
 .features {
-  background: #312d64;
   padding: 5rem 4rem;
 }
 
@@ -114,7 +117,7 @@ main p {
 }
 
 .contact form input {
-  padding: 1.2rem 1.6rem;
+  padding: 1.6rem;
   border-radius: 1.6rem;
   border: 0.2rem solid #312d64;
   font-size: 1.6rem;
@@ -152,7 +155,6 @@ main p {
   border-radius: 1.6rem;
   border: none;
   width: 50%;
-  background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
   color: #fff;
   font-size: 1.6rem;
   font-weight: 600;
@@ -161,4 +163,11 @@ main p {
 
 .contact form button:hover {
   background: linear-gradient(96.21deg, #28257e 0%, #24214e 99.68%);
+}
+
+footer {
+  padding: 3.2rem 1.6rem;
+
+  color: #fff;
+  text-align: center;
 }
