@@ -1,0 +1,68 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.6rem;
+  color: #312d64;
+
+  background: #f9f4fb;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2 {
+  color: #b52184;
+  font-weight: 900;
+}
+
+.container {
+  max-width: 43rem;
+  margin: 0 auto;
+}
+
+main {
+  text-align: center;
+}
+
+main img {
+  width: 36.4rem;
+  margin-bottom: 1.8rem;
+}
+
+main h1 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+
+  margin-bottom: 0.6rem;
+}
+
+main p {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+
+  margin-bottom: 6rem;
+}
+
+.arrow-down {
+  display: inline;
+  padding: 3.2rem 1.6rem;
+  border: 0.4rem solid #b52184;
+  border-radius: 5rem;
+  color: #b52184;
+
+  font-size: 4rem;
+}
