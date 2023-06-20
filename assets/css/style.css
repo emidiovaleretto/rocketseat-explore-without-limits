@@ -95,3 +95,70 @@ main p {
   margin-bottom: 1.8rem;
   line-height: 2rem;
 }
+
+.contact {
+  padding: 6rem 4rem;
+}
+.contact h2 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  margin-bottom: 4rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  margin-bottom: 6.4rem;
+}
+
+.contact form input {
+  padding: 1.2rem 1.6rem;
+  border-radius: 1.6rem;
+  border: 0.2rem solid #312d64;
+  font-size: 1.6rem;
+}
+
+.decoration {
+  display: none;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: none;
+  border-color: #b52184;
+}
+
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #312d64;
+}
+
+.contact form textarea {
+  height: 12.6rem;
+  padding: 1.2rem 1.6rem;
+  border-radius: 1.6rem;
+  border: 0.2rem solid #312d64;
+  font-size: 1.6rem;
+  resize: none;
+}
+
+.contact form button {
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  border: none;
+  width: 50%;
+  background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background: linear-gradient(96.21deg, #28257e 0%, #24214e 99.68%);
+}
