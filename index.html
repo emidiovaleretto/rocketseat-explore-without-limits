@@ -59,8 +59,14 @@
       <div>
         <h2>Contact Us</h2>
         <form action="">
-          <input type="text" name="name" id="name" placeholder="Your name" required>
-          <input type="email" name="email" id="email" placeholder="Your email" required>
+          <div class="input-wrapper">
+            <i class="icon fa-solid fa-user"></i>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+          </div>
+          <div class="input-wrapper">
+            <i class="icon fa-solid fa-at"></i>
+            <input type="email" name="email" id="email" placeholder="Your email" required>
+          </div>
           <textarea name="message" id="message" placeholder="Enter your message here" required></textarea>
           <button class="linear-gradient-bg" type="submit">Send message</button>
         </form>

@@ -121,7 +121,9 @@ main p {
 }
 
 .contact form input {
+  width: 100%;
   padding: 1.6rem;
+  padding-left: 4.4rem;
   border-radius: 1.6rem;
   border: 0.2rem solid #312d64;
   font-size: 1.6rem;
@@ -143,6 +145,20 @@ main p {
   font-size: 1.6rem;
   font-weight: 600;
   color: #312d64;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 1.6rem;
+  transform: translateY(-50%);
+
+  font-size: 2.4rem;
+  color: #b52184;
 }
 
 .contact form textarea {
