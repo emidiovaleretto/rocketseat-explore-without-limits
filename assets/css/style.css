@@ -38,11 +38,6 @@ p {
   background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
 }
 
-.container {
-  max-width: 43rem;
-  margin: 0 auto;
-}
-
 main {
   text-align: center;
 }
@@ -129,10 +124,6 @@ main p {
   font-size: 1.6rem;
 }
 
-.decoration {
-  display: none;
-}
-
 .contact form input:focus,
 .contact form textarea:focus {
   outline: none;
@@ -201,5 +192,73 @@ footer {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 122rem;
+    margin: 0 auto;
+  }
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    margin: 0 4rem;
+    height: 100vh;
+  }
+  .main-content img {
+    width: 72rem;
+  }
+  .main-content div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .main-content h1 {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+  .main-content p {
+    font-size: 3.2rem;
+    line-height: 4rem;
+
+    margin-bottom: 24rem;
+  }
+  .features {
+    display: flex;
+    gap: 6.4rem;
+
+    height: 57.6rem;
+  }
+  .features div {
+    width: 36.6rem;
+  }
+  .features div + div {
+    margin-top: 0;
+  }
+  .features h2 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+  }
+  .contact {
+    background: url("https://i.ibb.co/v4nsNGW/decoration.png") no-repeat right;
+    background-size: contain;
+  }
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .form-wrapper h2 {
+    font-size: 4.2rem;
+    line-height: 5rem;
+    margin-top: 6rem;
+  }
+  .form-wrapper form {
+    max-width: 50%;
   }
 }
